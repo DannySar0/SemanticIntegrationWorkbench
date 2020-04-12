@@ -12,19 +12,22 @@ public class FileBasedRepository
 	private File rootDir;
 
 	@Override
-	public String getName() {
+	public String getName()
+	{
 		// TODO Auto-generated method stub
 		return name;
 	}
 
 	@Override
-	public boolean allowsObjectCollection(String name) {
+	public boolean allowsObjectCollection(String name)
+	{
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean allowsObjectCollection(IObjectCollection oc) {
+	public boolean allowsObjectCollection(IObjectCollection oc)
+	{
 		// TODO Auto-generated method stub
 		return false;
 	}
